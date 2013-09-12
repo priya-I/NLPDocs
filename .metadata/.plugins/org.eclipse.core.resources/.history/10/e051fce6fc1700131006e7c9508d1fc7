@@ -1,0 +1,16 @@
+'''
+Created on Sep 7, 2013
+
+@author: Priya Iyer
+'''
+
+import nltk
+from nltk.book import *
+
+#******All activities marked 'Your Turn' (YT)
+
+#YT 1
+x=2*(4+6)/1000
+print x
+
+#YT2

@@ -1,0 +1,47 @@
+'''
+Created on Sep 7, 2013
+
+@author: Priya Iyer
+'''
+
+import nltk
+from nltk.book import *
+
+#******All activities marked 'Your Turn' (YT)
+
+#YT 1 Simple operations
+x=2*(4+6)/1000
+print x
+print '************************************\n'
+
+#YT 2 Searching for other words in the text using concordance
+text1.concordance("survived") 
+print '************************************\n'
+text2.concordance("affection") 
+print '************************************\n'
+text3.concordance("lived") 
+print '************************************\n'
+text4.concordance("terror") 
+print '************************************\n'
+text5.concordance("rofl")
+print '************************************\n'
+
+#YT 3 Searching for similar words 
+text7.similar("boom")
+print '************************************\n'
+text5.similar("boom")
+print '************************************\n'
+text5.common_contexts(["economy","depression"])
+print '************************************\n'
+
+#YT 4 How man ytimes does lol appear in text5?
+text5.count("lol")
+print "The percentage of 'lol' is: "+ str(100*text5.count("lol")/len(text5))
+print '************************************\n'
+
+#YT 5 Frequency distribution of text2
+fdist2=FreqDist(text2)
+print "Frequency Distribution of text2 is: "
+print fdist2
+print '************************************\n'
+

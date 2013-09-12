@@ -1,0 +1,26 @@
+'''
+Created on Sep 7, 2013
+
+@author: Priya Iyer
+'''
+
+import nltk
+from nltk.book import *
+
+#******All activities marked 'Your Turn' (YT)
+
+#YT 1 Simple operations
+x=2*(4+6)/1000
+print x
+
+#YT 2 Searching for other words in the text using concordance
+text1.concordance("survived") 
+text2.concordance("affection") 
+text3.concordance("lived") 
+text4.concordance(["nation","terror","god"]) 
+text5.concordance("rofl")
+
+#YT 3 Searching for similar words 
+text7.similar("boom")
+text5.similar("boom")
+text5.common_contexts(["economy","depression"])
